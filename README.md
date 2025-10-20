@@ -336,20 +336,6 @@ Full applicant-level data (wide format):
 
 ---
 
-## Statistical Guarantees Met
-
-Per the project brief:
-
-| Requirement | Target | Achieved | Status |
-|-----------|--------|----------|--------|
-| Confidence Level | 99% (α=0.01) | p ≈ 0 | ✅ |
-| Statistical Power | 80% (1-β ≥ 0.80) | 100.00% | ✅ |
-| Sample Size | Large-scale | 21,698 | ✅ |
-| Cost-Effectiveness | Positive ROI | $127.79/person | ✅ |
-| Reproducibility | Full documentation | ✅ Code + data | ✅ |
-
----
-
 ## Installation & Dependencies
 
 ### Core Requirements
