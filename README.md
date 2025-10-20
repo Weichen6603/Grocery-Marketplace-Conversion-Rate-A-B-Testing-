@@ -5,12 +5,12 @@
 This repository contains a **production-ready A/B testing framework** with automated data pipelines (PostgreSQL + Python) to measure the impact of **early background check initiation** on shopper conversion rates in a hiring funnel.
 
 ### Key Capabilities
-- ✅ **Event-level data processing** with Pandas/NumPy
-- ✅ **PostgreSQL integration** with connection pooling
-- ✅ **Automated ETL pipeline** with data quality validation
-- ✅ **Statistical analysis** at 99%+ confidence & 100% power
-- ✅ **Cost-effectiveness modeling** with ROI analysis
-- ✅ **Publication-quality visualizations**
+-  **Event-level data processing** with Pandas/NumPy
+-  **PostgreSQL integration** with connection pooling
+-  **Automated ETL pipeline** with data quality validation
+-  **Statistical analysis** at 99%+ confidence & 100% power
+-  **Cost-effectiveness modeling** with ROI analysis
+-  **Publication-quality visualizations**
 
 ### Business Context
 
@@ -28,20 +28,20 @@ This repository contains a **production-ready A/B testing framework** with autom
 
 ## Key Results
 
-### Statistical Significance ✓
+### Statistical Significance 
 - **Conversion Rate Uplift**: 19.81% → 34.33% (**+73.29% relative lift**)
 - **Absolute Difference**: +14.52 percentage points
 - **Test Statistic**: z = 23.375, **p ≈ 0** (>> 0.01)
 - **Confidence**: > **99%** (α = 0.01, two-tailed)
 - **Statistical Power**: **100%** (>> 80% target)
 
-### Cost-Effectiveness ✓
+### Cost-Effectiveness 
 - **Incremental Cost**: ~1,819 additional background checks × \$30 = $54,569
 - **Incremental Conversions**: **1,045** additional shoppers
 - **CPIC** (Cost Per Incremental Conversion): **$52.21**
 - **ROI**: $180 LTV - $52.21 CPIC = **$127.79 per incremental conversion → Positive ROI**
 
-### Speed Improvement ✓
+### Speed Improvement 
 - **Median Time to First Batch**: 10 days → 7 days (**-30% faster**)
 - **Kaplan-Meier Test**: Log-rank χ² = 3447.18, p ≈ 0 (highly significant)
 
